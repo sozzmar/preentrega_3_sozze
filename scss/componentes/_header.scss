@@ -1,9 +1,18 @@
 header {
+    padding: 10px;
     border-bottom: 10px solid rgb(130, 112, 72);
     background-color: rgb(240, 255, 243);
     display: flex;
+    align-items: right;    
     position: fixed;
     top: 0px;
     position: sticky;
     z-index: 1;
-    }
+
+    
+}
+
+    
+
+    
+    

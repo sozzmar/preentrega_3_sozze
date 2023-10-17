@@ -1,12 +1,17 @@
 footer { 
     background-color: rgb(130, 112, 72);
     div { 
+        .social-media
+         {      text-align: right;
+               
                
         a {
             text-decoration: none;
             img {
+                right: 0px;
                 width: 3%;
             }
         }
     }
+}
 }

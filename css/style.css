@@ -1,7 +1,9 @@
 header {
+  padding: 10px;
   border-bottom: 10px solid rgb(130, 112, 72);
   background-color: rgb(240, 255, 243);
   display: flex;
+  align-items: right;
   position: fixed;
   top: 0px;
   position: sticky;
@@ -16,11 +18,25 @@ body main section img {
 footer {
   background-color: rgb(130, 112, 72);
 }
-footer div a {
+footer div .social-media {
+  text-align: right;
+}
+footer div .social-media a {
   text-decoration: none;
 }
-footer div a img {
+footer div .social-media a img {
+  right: 0px;
   width: 3%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body main section .imagen-quiensoy {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
