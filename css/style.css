@@ -1,7 +1,7 @@
-header {
+body header {
   padding: 10px;
   border-bottom: 10px solid rgb(130, 112, 72);
-  background-color: rgb(240, 255, 243);
+  background-color: white;
   display: flex;
   align-items: right;
   position: fixed;
@@ -9,24 +9,29 @@ header {
   position: sticky;
   z-index: 1;
 }
+body header nav div a .navbar-brand {
+  color: rgb(130, 112, 72);
+}
 
 body main section img {
   height: 100%;
   width: 100%;
 }
 
-footer {
+body footer {
   background-color: rgb(130, 112, 72);
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-footer div .social-media {
-  text-align: right;
-}
-footer div .social-media a {
+body footer a {
   text-decoration: none;
 }
-footer div .social-media a img {
-  right: 0px;
-  width: 3%;
+body footer a img {
+  width: 5%;
+  margin: 2%;
 }
 
 * {
@@ -35,6 +40,9 @@ footer div .social-media a img {
   box-sizing: border-box;
 }
 
+body main {
+  background-color: rgb(253, 234, 219);
+}
 body main section .imagen-quiensoy {
   width: 100%;
 }

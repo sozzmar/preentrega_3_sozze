@@ -1,17 +1,26 @@
-header {
+body { 
+    header {
     padding: 10px;
     border-bottom: 10px solid rgb(130, 112, 72);
-    background-color: rgb(240, 255, 243);
+    background-color: white;
     display: flex;
     align-items: right;    
     position: fixed;
     top: 0px;
     position: sticky;
     z-index: 1;
+nav {
+    div {
+        a { 
+            .navbar-brand { color: rgb(130, 112, 72);
 
+        }
+    }
+}
     
 }
-
+}
+}
     
 
     
