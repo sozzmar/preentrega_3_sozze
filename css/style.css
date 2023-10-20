@@ -9,9 +9,6 @@ body header {
   position: sticky;
   z-index: 1;
 }
-body header nav div a .navbar-brand {
-  color: rgb(130, 112, 72);
-}
 
 body main section img {
   height: 100%;
