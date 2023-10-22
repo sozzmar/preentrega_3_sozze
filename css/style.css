@@ -42,20 +42,16 @@ body footer a img {
 
 body main {
   background-color: rgb(253, 234, 219);
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
-body main section .titulo-quiensoy {
+body main .titulo-quiensoy {
   color: rgb(130, 112, 72);
   padding-left: 10px;
   font-size: 5vw;
 }
-body main section .imagen-quiensoy {
-  width: 50%;
-  height: 50%;
-  max-width: 100%;
-  display: block;
+body main section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 body main section .parrafo-quiensoy {
   color: rgb(130, 112, 72);
@@ -64,7 +60,14 @@ body main section .parrafo-quiensoy {
   width: 45%;
   padding-left: 10px;
   padding-top: 50px;
-  display: block;
+  padding-bottom: 50px;
+}
+body main section .imagen-quiensoy {
+  width: 50%;
+  height: 50%;
+  max-width: 100%;
+  padding-right: 30px;
+  padding-top: 30px;
 }
 
 body main div a img {
@@ -72,6 +75,100 @@ body main div a img {
   position: fixed;
   right: 2%;
   bottom: 0%;
+}
+
+body main {
+  background-color: rgb(253, 234, 219);
+}
+body main .titulo-yogaintegral {
+  color: rgb(130, 112, 72);
+  padding-left: 10px;
+  font-size: 5vw;
+}
+body main section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+body main section .ParrafoYogaIntegral {
+  color: rgb(130, 112, 72);
+  text-align: left;
+  font-size: 2vw;
+  width: 45%;
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body main section .imangen-yogaintegral {
+  width: 50%;
+  height: 50%;
+  max-width: 100%;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+body main {
+  background-color: rgb(253, 234, 219);
+}
+body main .titulo-clases {
+  color: rgb(130, 112, 72);
+  padding-left: 10px;
+  font-size: 4.5vw;
+}
+body main section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+body main section div .clases-yoga-integal {
+  color: rgb(130, 112, 72);
+  text-align: center;
+  font-size: 2vw;
+  padding-top: 10%;
+}
+body main section div h2 {
+  color: rgb(130, 112, 72);
+  text-align: center;
+  font-size: 1.75vw;
+}
+body main section div h3 {
+  color: rgb(130, 112, 72);
+  text-align: center;
+  font-size: 1.75vw;
+}
+body main section div p {
+  color: rgb(130, 112, 72);
+  text-align: center;
+  font-size: 1.5vw;
+}
+body main section div .yoga-experimental {
+  color: rgb(130, 112, 72);
+  text-align: center;
+  font-size: 2vw;
+  padding-top: 10%;
+}
+body main section div h5 {
+  color: rgb(130, 112, 72);
+  text-align: center;
+  font-size: 1.75vw;
+}
+body main section div .meditacion {
+  color: rgb(130, 112, 72);
+  text-align: center;
+  font-size: 2vw;
+}
+body main section div h6 {
+  color: rgb(130, 112, 72);
+  text-align: center;
+  font-size: 1.75vw;
+}
+body main section .imagen-clases {
+  width: 50%;
+  height: 50%;
+  max-width: 100%;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+body {
+    main {
+      background-color: rgb(253, 234, 219);
+  
+      .titulo-yogaintegral{
+        color: rgb(130, 112, 72);
+        padding-left: 10px;
+        font-size: 5vw;
+      }
+  
+  
+        section {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+  
+  
+  
+  
+          .ParrafoYogaIntegral {
+            color: rgb(130, 112, 72);
+            text-align: left;
+            font-size: 2vw;
+            width: 45%;
+            padding-left: 10px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+  
+  
+          }
+  
+          .imangen-yogaintegral {
+            width: 50%;
+            height: 50%;
+            max-width: 100%;
+                  padding-right: 30px;
+            padding-top: 30px;
+  
+  
+  
+          }
+        }
+      }
+    }
