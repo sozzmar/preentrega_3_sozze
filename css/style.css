@@ -10,6 +10,9 @@ body header {
   z-index: 1;
 }
 
+body main section {
+  background-color: rgb(253, 234, 219);
+}
 body main section img {
   height: 100%;
   width: 100%;
@@ -39,9 +42,36 @@ body footer a img {
 
 body main {
   background-color: rgb(253, 234, 219);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body main section .titulo-quiensoy {
+  color: rgb(130, 112, 72);
+  padding-left: 10px;
+  font-size: 5vw;
 }
 body main section .imagen-quiensoy {
-  width: 100%;
+  width: 50%;
+  height: 50%;
+  max-width: 100%;
+  display: block;
+}
+body main section .parrafo-quiensoy {
+  color: rgb(130, 112, 72);
+  text-align: left;
+  font-size: 2vw;
+  width: 45%;
+  padding-left: 10px;
+  padding-top: 50px;
+  display: block;
+}
+
+body main div a img {
+  width: 5%;
+  position: fixed;
+  right: 2%;
+  bottom: 0%;
 }
 
 /*# sourceMappingURL=style.css.map */

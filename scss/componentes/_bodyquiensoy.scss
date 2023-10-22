@@ -1,10 +1,36 @@
 body {
-    main {
-      background-color: rgb(253, 234, 219);
-  section { 
-     .imagen-quiensoy {
-    width: 100%;
- }
-  }
-}
-}
+  main {
+    background-color: rgb(253, 234, 219);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    section {
+      .titulo-quiensoy {
+        color: rgb(130, 112, 72);
+        padding-left: 10px;
+        font-size: 5vw;
+      }
+
+        .imagen-quiensoy {
+          width: 50%;
+          height: 50%;
+           max-width: 100%;
+           display: block;
+        }
+
+          .parrafo-quiensoy {
+            color: rgb(130, 112, 72);
+            text-align: left;
+            font-size: 2vw;
+            width: 45%;
+            padding-left: 10px;
+            padding-top: 50px;
+            display: block;
+
+          }
+        }
+      }
+    }
+  
+
