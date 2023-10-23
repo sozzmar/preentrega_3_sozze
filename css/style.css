@@ -13,7 +13,7 @@ body header {
 body main {
   background-color: rgb(253, 234, 219);
 }
-body main section img {
+body main img {
   height: 100%;
   width: 100%;
 }
@@ -115,9 +115,10 @@ body main section .imagen-quiensoy {
   }
 }
 body main div a img {
-  width: 5%;
+  width: 10%;
+  height: 10%;
   position: fixed;
-  right: 2%;
+  right: 0%;
   bottom: 0%;
 }
 
