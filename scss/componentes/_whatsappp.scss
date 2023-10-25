@@ -1,16 +1,17 @@
 body {
     main {
-        div {
+        .whatsapp {
 
 
             a {
-                img {
+                .imagen-whatsapp {
 
-                    width: 80%;
-                    height: 10%;
+                    width: 15%;
+                    height: 15%;
                     position: fixed;
                     right: 0%;
                     bottom: 0%;
+                    z-index: 1;
 
                 }
             }
