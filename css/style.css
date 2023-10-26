@@ -335,51 +335,36 @@ body main section .imagen-clases {
 }
 main #carouselExampleFade .carousel-inner .carousel-item {
   height: 100vh;
+  width: 100%;
   min-height: 100%;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  min-width: 100%;
+  object-fit: cover;
 }
 main #carouselExampleFade .carousel-inner .carousel-item img {
   position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 100% px;
+  min-height: 100%;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 main #carouselExampleFade .carousel-inner .carousel-item img {
   position: absolute;
-  top: 0;
-  left: 0;
   min-height: 100%;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 468px) {
-  main #carouselExampleFade .carousel-inner .carousel-item {
-    height: 100vh;
-    min-height: 100%;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  main #carouselExampleFade .carousel-inner {
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   main #carouselExampleFade .carousel-inner .carousel-item img {
-    position: absolute;
-    min-height: 100%;
-    width: 70%;
-    height: 70%;
-    object-fit: cover;
-  }
-  main #carouselExampleFade .carousel-inner .carousel-item img {
-    position: absolute;
-    min-height: 100%;
-    width: 70%;
-    height: 70 main #carouselExampleFade .carousel-inner .carousel-item img;
-    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
